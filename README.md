@@ -2,7 +2,7 @@
 
 ATMT 課題サンプル (web programmingの勉強として作成しました、何が問題を発見した場合はIssuesで検討させて頂きます。)
 
-<img src="./atmt.gif" width="100">
+<img text-aligin="center" src="./atmt.gif" width="100">
 
 ## Setup
 
