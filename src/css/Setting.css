@@ -1,0 +1,148 @@
+.Setting {
+    padding: 2% 2% 2% 2%;
+    text-align: center;
+    background-color: #333333;
+    height: 725px;
+
+  }
+
+  .reset-btn{
+    position : fixed;
+    right: 10px;
+    top : 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    color: #eee;
+    cursor: pointer;
+    border: 2px solid #eee;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    background-color: #333;
+  }
+
+  .reset-btn:hover {
+    background-color: #eee;
+    color: #333 !important;
+    text-shadow: ntwo;
+  }
+
+.input-panel{
+  display: flex;
+  margin: 5% 2% 5% 2%;
+  border: 2px solid #eee;
+}
+
+.sub-container{
+  width:50%;
+}
+.param-label{
+  position: relative;
+  font-size: 30px;
+  color: #eeeeee;
+  text-align: right;
+  line-height: 100px;
+  margin-right: 2%;
+}
+
+.param-input{
+  text-align: left;
+  line-height: 100px;
+  font-size: 30px;
+  color: #eeeeee;
+  margin-left: 2%;
+}
+
+.input-area{
+  color: aliceblue;
+  border:2px solid #eeeeee;
+  background-color: #333333;
+  font-size: 28px;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+}
+
+.myCheckbox {
+  color: #eeeeee;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 26%;
+  margin-top: 3%;
+}
+
+/* Hide the browser's default checkbox */
+.myCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: #eee;
+  background-color: #333333;
+  border: 2px solid #eeeeee;
+}
+
+/* On mouse-over, add a grey background color */
+.myCheckbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.myCheckbox input:checked ~ .checkmark {
+  background-color: #333;
+  border: 2px solid #eeeeee;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.myCheckbox input:checked ~ .checkmark:after {
+  display: block;;
+}
+
+/* Style the checkmark/indicator */
+.myCheckbox .checkmark:after {
+  left: 35%;
+  top: 25%;
+  width: 10px;
+  height: 20px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.my-btn {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+	color: #eee;
+	cursor: pointer;
+	border: 2px solid #eee;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  background-color: #333;
+}
+
+.my-btn:hover {
+  background-color: #eee;
+	color: #333 !important;
+	text-shadow: ntwo;
+}

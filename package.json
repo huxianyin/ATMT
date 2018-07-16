@@ -1,0 +1,27 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "browserify-fs": "^1.0.0",
+    "electron": "^2.0.4",
+    "electron-connect": "^0.6.3",
+    "electron-packager": "^12.1.0",
+    "fs": "0.0.1-security",
+    "fusioncharts": "^3.12.2",
+    "gulp": "^3.9.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-fusioncharts": "^1.0.5",
+    "react-router": "^3.0.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "main.js"
+}
