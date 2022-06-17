@@ -1,6 +1,6 @@
-# ATMT
+# ATMT (Advanced Trial Making Test)
 
-ATMT 課題サンプル (web programmingの勉強として作成しました、何が問題を発見した場合はIssuesで検討させて頂きます。)
+ Random Task (ATMT Task R) and the Advanced Trail Making Test Fixed Task (ATMT Task F)
 
 <img src="./atmt.gif" width="100">
 
